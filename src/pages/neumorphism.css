@@ -1,0 +1,51 @@
+.board {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  background-color: #a849ff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 250px;
+  color: white;
+  font-size: 28pt;
+  font-weight: 800;
+  -webkit-text-stroke: 1px gray;
+  text-shadow: 1px 1px 5px gray;
+  cursor: default;
+}
+.np-first {
+  width: 250px;
+  height: 250px;
+  margin: -5rem 5rem 0 5rem;
+  border-radius: 50px;
+  background: #a849ff;
+  box-shadow: 30px 30px 40px #863acc, -30px -30px 40px #ca58ff;
+}
+
+.np-second {
+  width: 250px;
+  height: 250px;
+  margin: -5rem 5rem 0 0;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #9742e6, #b44eff);
+  box-shadow: 30px 30px 40px #863acc, -30px -30px 40px #ca58ff;
+}
+
+.np-third {
+  width: 250px;
+  height: 250px;
+  margin: -5rem 5rem 0 0;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #b44eff, #9742e6);
+  box-shadow: 30px 30px 40px #863acc, -30px -30px 40px #ca58ff;
+}
+
+.np-fourth {
+  width: 250px;
+  height: 250px;
+  border-radius: 50px;
+  margin: -5rem 5rem 0 0;
+  background: #a849ff;
+  box-shadow: inset 30px 30px 40px #863acc, inset -30px -30px 40px #ca58ff;
+}

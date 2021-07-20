@@ -1,0 +1,68 @@
+.Header {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background-color: #8a2be2;
+  margin: 0;
+}
+
+.tab {
+  height: 50px;
+  width: 140px;
+  padding: 0.2rem;
+  margin: 0.6rem 0.25rem 0.5rem 0.25rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 50%) 0px 2px 4px 0px;
+  text-align: center;
+  font-size: 16px;
+  /* box-shadow: 2px 2px rgb(241, 241, 241); */
+  cursor: pointer;
+  transition: background-color, color 0.6s ease 0s;
+}
+
+.tab:hover {
+  background-color: black;
+  color: white;
+}
+
+.tab:hover::after {
+  z-index: -1;
+}
+
+.abstract {
+  background-color: #a849ff;
+}
+
+.onestroke {
+  background-color: #c665ff;
+}
+
+.threed {
+  background-color: #e481ff;
+}
+
+.neumorphism {
+  background-color: #ff9dff;
+}
+
+.terazzo {
+  background-color: #ffb9ff;
+}
+
+.shadow {
+  background-color: #ffd6ff;
+}
+
+.doubletone {
+  background-color: #fff4ff;
+}
+
+.icon {
+  height: 40px;
+  width: 55px;
+  border-radius: 5px;
+  padding: 0.2rem;
+  margin: 0.6rem 0.5rem;
+  cursor: pointer;
+}
