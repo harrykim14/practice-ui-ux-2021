@@ -44,9 +44,16 @@
 
 6. 섀도우 디자인(Shadow Design)
 
+<img src="https://user-images.githubusercontent.com/67398691/126447372-2b0acf15-2de1-4ec5-a56f-564ded652424.JPG" alt="shadow design" width="980px" height="540px"/>
+
+- 웹디자인에 주로 사용되는 카드형 컴포넌트와 그림자 스타일을 혼합하여 사용하였다
+
 7. 컬러리스/더블톤 디자인(Colorless/Double-tone Design)
 
-- 더블 톤으로 갤럭시Z 플립의 Violet/Black
+<img src="https://user-images.githubusercontent.com/67398691/126447414-d5289d25-cacc-4cac-81a9-e3dc0205d460.JPG" alt="double-tone design" width="980px" height="540px"/>
+
+- 더블 톤으로 Violet/White를 이용하였고 물결 무늬를 표현하기 위해 clip-path를 사용하였다
+- 애니메이션을 이용해 텍스트가 떠오르고 애니메이션 이후에 그 자리에 고정되게끔 js와 조합하여 추가하였다
 
 **여기서부터는 페이지 개발에 필요한 것들 정리**
 
@@ -57,3 +64,10 @@
 - react-router-dom 설치하기([참고페이지](https://jeonghwan-kim.github.io/dev/2019/07/08/react-router-ts.html))
   `npm install react-router-dom @types/react-router-dom`
 - `routes/index.tsx` 파일을 생성하고 경로 설정하기
+
+**여기서부터는 만들어보고 느낀 점**
+
+- 해당 디자인에 어떤 애니메이션을 조합했을 때 효과적일까를 생각하는 시간이 매우 유익했다
+- 여러 CSS(트랜스폼, 애니메이션, 키프레임 등)를 복습 할 수 있었다
+- 앞으로 UI/UX를 공부함에 있어 **실제로 구현해보는 것**에 거부감 없이 도전할 수 있으면 함
+- 기본적으로 CSS만 사용하고자 했으나, **실제로는 자바스크립트와 캔버스를 활용**하는 애니메이션이 더 동적이고 사용자와 상호작용을 할 수 있으므로 향후 **JS와 캔버스를 활용한 UI/UX 구현**을 과제로 삼아야 할 것
